@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Project Report: Simple Traffic System (student)
 
 Overview
@@ -41,4 +42,41 @@ Next steps (recommended)
 Contact
 - If you want, I can implement the next steps: add `Makefile`, comments, or run the
 	full smoke test and commit the results.
+=======
+# Billing System – Project Report
+
+
+## 1. Title
+**Billing System using C**
+
+
+## 2. Abstract
+This project implements a basic shop billing system using C structures and modular programming.
+
+
+## 3. Problem Definition
+Design a system that stores item details and prints the final bill.
+
+
+## 4. System Design
+- Uses structure to store item
+- Functions for add & display
+- Menu-driven logic
+
+
+## 5. Implementation
+Includes main.c, billing.c, billing.h
+
+
+## 6. Testing
+Tested with multiple items and edge cases.
+
+
+## 7. Conclusion
+The program successfully generates a clean bill.
+
+
+## 8. Future Work
+Add file handling, discounts, GST..
+>>>>>>> 521fa18 (docs: add project report)
 

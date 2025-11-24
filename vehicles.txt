@@ -1,3 +1,0 @@
-ABC123,John Doe,Car,9876543210
-321321a,chandan sharma,bike,83793392
-321b,chandan,bike,326535735
