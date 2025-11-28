@@ -1,48 +1,3 @@
-<<<<<<< HEAD
-Project Report: Simple Traffic System (student)
-
-Overview
-- Project: Simple Traffic System — small C program simulating vehicle registration,
-	recording traffic violations, marking penalties paid, and producing basic reports.
-- Purpose: educational; simplified code intended for a first-semester B.Tech student.
-
-Repository layout
-- `include/` : header files (`vehicle.h`, `violation.h`, `penalty.h`, `reports.h`).
-- `src/` : source files (`main.c`, `vehicle.c`, `violation.c`, `penalty.c`, `reports.c`).
-- Data files (created at runtime): `vehicles.txt`, `violations.txt`.
-
-Work performed
-- Diagnosed initial build failures caused by missing or empty source/header files.
-- Restored missing implementations for vehicle, violation, penalty, and reports modules.
-- Removed duplicate symbol definitions (resolved multiple-definition linker error).
-- Simplified all source and header files to short, beginner-friendly implementations.
-- Added a `README.md` with build/run instructions and a sample smoke-test command.
-
-Key design decisions
-- Use plain text files for persistence to keep the code simple to understand.
-- Minimal parsing using `fgets`, `sscanf`, and `strtok`-style patterns where needed.
-- Single-responsibility C files: each module handles its own file I/O and simple logic.
-
-Testing performed
-- Built with: `gcc src/*.c -Iinclude -o main` (successful after fixes).
-- Ran a quick smoke test: program shows menu and exits correctly. Further automated
-	smoke tests can be executed by piping pre-prepared input into `./main`.
-
-Known limitations
-- No concurrent access handling for data files.
-- Minimal input validation; assumes reasonably formatted input from the user.
-- No unit tests or Makefile included (can be added on request).
-
-Next steps (recommended)
-- Add a simple `Makefile` with `build` and `clean` targets for students.
-- Add short inline comments to each function explaining purpose and flow.
-- Run a full scripted smoke test (add vehicle → record violation → mark paid → reports)
-	and save its output as an example run in `docs/`.
-
-Contact
-- If you want, I can implement the next steps: add `Makefile`, comments, or run the
-	full smoke test and commit the results.
-=======
 # Billing System – Project Report
 
 
@@ -77,6 +32,4 @@ The program successfully generates a clean bill.
 
 
 ## 8. Future Work
-Add file handling, discounts, GST..
->>>>>>> 521fa18 (docs: add project report)
-
+Add file handling, discounts, GST.
